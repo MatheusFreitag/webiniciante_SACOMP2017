@@ -1,0 +1,168 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul.navbar{
+  background-color: #333;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+
+ul.navbar li {
+  float: left;
+  list-style: none;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 16px;
+}
+
+ul.navbar li a{
+	color: #ddd;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 10px;
+}
+
+ul.navbar li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+.main{
+	background-image: url('../img/background.png');
+	height: 500px;
+	background-size: auto;
+  	background-attachment: fixed;
+}
+.main h1{
+  margin: 0;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px 3px #333;
+
+}
+
+.main img{
+	width: 15%;
+	border-radius: 50% 50%;
+	border: 5px solid white;
+	margin-left: 25%;
+	margin-top: 50px;
+}
+
+.main p.descricao{
+	width: 40%;
+	float: right;
+	margin-right: 15%;
+	margin-top: 60px;
+	color: #fff;
+	font-size: 20px;
+	text-shadow: 2px 2px 6px #111;
+	line-height: 25px;
+}
+
+.compromissos{
+	height: 600px;
+	background-color: #00BFA5;
+	width: 100%;
+	text-align: center;
+}
+
+.compromissos h2{
+	margin-top: 0px;
+	color: white;
+	font-size: 50px;
+	padding-top: 30px;
+	text-shadow: 1px 1px 1px #555;
+}
+
+.container-compromisso{
+	display: inline-block;
+	width: 30%;
+	margin-top: 110px;
+}
+
+
+.container-compromisso p{
+	width: auto;
+	color: white;
+}
+
+.formacao{
+	height: 600px;
+	background-color: #0091EA;
+}
+
+.formacao h2{
+	color: #fff;
+	margin-top: 0px;
+	font-size: 50px;
+	text-shadow: 1px 1px 1px #555;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.formacao li{
+	color: white;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	font-size: 20px;
+}
+
+.formacao li b{
+	font-size: 25px;
+}
+
+
+.orcamento{
+	height: 800px;
+	background-color: #0091EA;
+}
+
+.orcamento h2{
+	color: #fff;
+	margin-top: 0px;
+	font-size: 50px;
+	text-shadow: 1px 1px 1px #555;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.orcamento table{
+	text-align: center;
+	width: 70%;
+	margin-left: 15%;
+}
+
+.orcamento table, th, td {
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+
+
+.rodape{
+	height: 50px;
+	background-color: #444;
+	text-align: center;
+	color: white;
+	padding-top: 30px;
+}
+
+.rodape a{
+	color: white;
+	text-decoration: none;
+	text-decoration: underline;
+}
+
+
+
+
+
